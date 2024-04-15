@@ -21,13 +21,6 @@ const ProductList = () => {
 
   return (
     <>
-    {/* <div>
-      <h1 className='naming'>Welcome to My REACTSHOP</h1>
-      <p>Your comfort is our priority. We deliver everything you need. 
-      Shop at the Best Prices in the world's no1 Online Destination. 
-      Buy Now and Pay on Delivery.
-      </p>
-    </div> */}
     <div className="product-container">
       {products.map((product) => (
         <div className="product-card" key={product.id}>
